@@ -1,0 +1,102 @@
+/* <header style> */
+
+#navbar-logo {
+    height: 55px;
+}
+
+header {
+    background-color: #353a40;
+}
+
+.text-buy {
+    color: #29a744 !important;
+}
+
+/* <section "conferencia" style> */
+
+#conferencia {
+    height: 525px;
+    min-height: 525px;
+    background: linear-gradient( #00000077, #00000077), url("../img/ba1.jpg");
+    background-size: cover;
+    background-position: 0% 70%;
+}
+
+.btn-buy {
+    color: #fff;
+    background-color: #29a744;
+    border-color: #29a744;
+}
+
+/* <section "oradores" style> */
+
+.fs-7 {
+    font-size: .65rem;
+}
+
+.card-group>.card {
+    border: 1px solid #dee2e6 !important;
+    border-radius: .3rem !important;
+}
+
+.card>img {
+    border-top-left-radius: .3rem !important;
+    border-top-right-radius: .3rem !important;
+}
+
+.card-img-top {
+    height: 275px;
+    object-fit: cover;
+}
+
+.card-body>.badge {
+    font-weight: bold;
+    font-size: .65rem;
+    padding: .20rem;
+    margin-top: .25rem;
+}
+
+.card-body>.card-text {
+    font-size: .68rem;
+    line-height: 2;
+}
+
+.bg-info {
+    background-color: #17a2b9 !important;
+}
+
+/* <section "lugar" style> */
+
+.lugar-dark {
+    color: #fff;
+    background-color: #353a40;
+    border: 1px solid #7f8387;
+}
+
+.fs-8 {
+    font-size: .7rem !important;
+    letter-spacing: .25px;
+}
+
+/* <section "formulario" style> */
+
+.fs-9 {
+    font-size: .8rem;
+    letter-spacing: .25px;
+}
+
+.btn-enviar {
+    color: #fff;
+    background-color: #96c93e;
+    border-color: #96c93e;
+}
+
+/* <section "footer" style> */
+
+#footer {
+    background: linear-gradient(to right, #1d3744, #1e5371);
+}
+
+#footer .container a {
+    color: #fff;
+}
