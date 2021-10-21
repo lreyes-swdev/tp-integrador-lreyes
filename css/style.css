@@ -14,12 +14,20 @@ header {
 
 /* <section "conferencia" style> */
 
-#conferencia {
+#conferencia img {
     height: 525px;
     min-height: 525px;
-    background: linear-gradient( #00000077, #00000077), url("../img/ba1.jpg");
-    background-size: cover;
-    background-position: 0% 70%;
+    object-fit: cover;
+    object-position: 0% 70%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    background: linear-gradient( #00000077, #00000077);
 }
 
 .btn-buy {
