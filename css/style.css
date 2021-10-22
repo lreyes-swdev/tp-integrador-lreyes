@@ -108,3 +108,28 @@ header {
 #footer .container a {
     color: #fff;
 }
+
+/* <section "comprarTickets" style> */
+
+#comprarTickets .card {
+    border-radius: .1rem !important;
+    margin-right: .25rem!important;
+    margin-left: .25rem!important;
+}
+
+#comprarTickets p:last-child {
+    color: #808080 !important;
+    margin-bottom: 6px;
+}
+
+#comprarTickets .card:nth-child(1) {
+    border: 1px solid #007bff !important;
+}
+
+#comprarTickets .card:nth-child(2) {
+    border: 1px solid #17a2b8 !important;
+}
+
+#comprarTickets .card:nth-child(3) {
+    border: 1px solid #ffc107 !important;
+}
